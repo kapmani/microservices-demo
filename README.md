@@ -6,17 +6,18 @@ The application is the user-facing part of an online shop that sells socks. It i
 
 It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Go kit](http://gokit.io) and [Node.js](https://nodejs.org/) and is packaged in Docker containers.
 
-Deploy:
-
-kubectl create namespace sock-shop
-
-kubectl apply -f complete-demo.yaml
 
 You can read more about the [application design](./internal-docs/design.md).
 
 ## Deployment Platforms
 
 The [deploy folder](./deploy/) contains scripts and instructions to provision the application onto your favourite platform. 
+
+Deploy:
+
+kubectl create namespace sock-shop
+
+kubectl apply -f complete-demo.yaml
 
 Please let us know if there is a platform that you would like to see supported.
 
